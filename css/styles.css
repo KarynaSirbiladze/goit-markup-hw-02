@@ -2,6 +2,9 @@
   /* secondary color #434455*/
   /* accent #F4F4FD*/
   /* secondary accent #FFFFFF */
+  /* backgroung main #FFFFFF*/
+  /* background  hero #2E2F42*/
+  /* background team #F4F4FD */
 
   :root {
       --primary-text-color: #2E2F42;
@@ -9,12 +12,15 @@
       --main-accent-color: #4D5AE5;
       --accent-color: #F4F4FD;
       --secondary-accent-color: #FFFFFF;
+      --backgroung-main-color: #FFFFFF;
+      --background-hero-color: #2E2F42;
+      --background-team-color: #F4F4FD;
   }
 
 
   /* Body */
   body {
-      background-color: #FFFFFF;
+      background-color: var(--backgroung-main-color);
       color: var(--primary-text-color);
       font-family: 'Roboto', sans-serif;
   }
@@ -49,42 +55,31 @@
       color: var(--primary-text-color);
   }
 
+  .header-navigation-link {
+      color: var(--primary-text-color);
+  }
+
   .header-navigation-list {
       color: var(--primary-text-color);
   }
 
-  .header-navigation-list .header-navigation-item .header-navigation-studio:hover {
+  .header-navigation-link:hover {
       color: var(--main-accent-color);
 
   }
 
-  .header-navigation-portfolio:hover {
-      color: var(--main-accent-color);
 
-  }
 
-  .header-navigation-contacts:hover {
-      color: var(--main-accent-color);
-
-  }
-
-  .header-navigation-studio:focus {
+  .header-navigation-link:focus {
       color: var(--main-accent-color);
   }
 
-  .header-navigation-portfolio:focus {
-      color: var(--main-accent-color);
-  }
-
-  .header-navigation-contacts:focus {
-      color: var(--main-accent-color);
-  }
 
 
 
   .header-address {}
 
-  .header-address-list {
+  .header-address-link {
       color: var(--title-text-color);
   }
 
@@ -93,28 +88,25 @@
 
   }
 
-  .header-phone-link:hover {
-      color: var(--main-accent-color);
 
-  }
-
-
-  .header-address-link:hover {
-      color: var(--main-accent-color);
-
-  }
-
-  .header-phone-link:focus {
+  .header-address-link:focus {
       color: var(--main-accent-color);
 
   }
 
   /* Main 1*/
-  .main-section1 {}
+  .main-section1 {
+      background-color: var(--background-hero-color);
+  }
 
-  .main-section1-text {}
+  .main-section1-text {
+      color: var(--secondary-accent-color);
+  }
 
-  .main-section1-button {}
+  .main-section1-button {
+      color: var(--secondary-accent-color);
+      background-color: var(--main-accent-color);
+  }
 
   /* Main 2 */
   .main-section2 {}
@@ -125,14 +117,20 @@
 
   .main-section2-list-item {}
 
-  .main-section2-list-title {}
+  .main-section2-list-title {
+      color: var(--primary-text-color);
+  }
 
-  .main-section2-list-text {}
+  .main-section2-list-text {
+      color: var(--title-text-color);
+  }
 
   /* Main 3 */
   .main-section3 {}
 
-  .main-section3-title {}
+  .main-section3-title {
+      color: var(--primary-text-color);
+  }
 
   .main-section3-list {}
 
@@ -141,9 +139,13 @@
   .main-section3-list-img {}
 
   /* Main 4 */
-  .main-section4 {}
+  .main-section4 {
+      background-color: var(--background-team-color);
+  }
 
-  .main-section4-title {}
+  .main-section4-title {
+      color: var(--primary-text-color);
+  }
 
   .main-section4-list {}
 
@@ -151,18 +153,30 @@
 
   .main-section4-list-item-img {}
 
-  .main-section4-list-item-title {}
+  .main-section4-list-item-title {
+      color: var(--primary-text-color);
+  }
 
-  .main-section4-list-item-text {}
+  .main-section4-list-item-text {
+      color: var(--title-text-color);
+  }
 
   /* Footer */
-  .footer {}
+  .footer {
+      background-color: var(--background-hero-color);
+  }
 
-  .footer-logo-web {}
+  .footer-logo-web {
+      color: var(--main-accent-color);
+  }
 
-  .footer-logo-studio {}
+  .footer-logo-studio {
+      color: var(--accent-color);
+  }
 
-  .footer-text {}
+  .footer-text {
+      color: var(--accent-color)
+  }
 
   /* Portfolio page 2 */
 
@@ -178,6 +192,8 @@
   .portfolio-main-section2-img-list {}
 
   .portfolio-main-section2-img-list-item {}
+
+  .portfolio-link {}
 
   .portfolio-main-section2-img-list-item-pic {}
 
