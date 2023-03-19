@@ -11,7 +11,7 @@
       --title-text-color: #434455;
       --main-accent-color: #4D5AE5;
       --accent-color: #F4F4FD;
-      --current-buton-color: #404BBF;
+      --main-buton-color: #404BBF;
       --secondary-accent-color: #FFFFFF;
       --backgroung-main-color: #FFFFFF;
       --background-hero-color: #2E2F42;
@@ -26,6 +26,7 @@
       color: #434455;
 
       font-family: 'Roboto', sans-serif;
+
   }
 
   .list {
@@ -87,7 +88,7 @@
   }
 
   .header-navigation-link:hover {
-      color: var(--backgroung-button-color);
+      color: var(--main-buton-color);
 
   }
 
@@ -97,13 +98,15 @@
   }
 
   .header-navigation-link:focus {
-      color: var(--backgroung-button-color);
+      color: var(--main-buton-color);
   }
 
 
 
 
-  .header-address {}
+  .header-address {
+      font-style: normal
+  }
 
   .header-address-link {
       color: var(--title-text-color);
@@ -307,12 +310,14 @@
       background-color: var(--accent-color);
       color: var(--main-accent-color);
 
+      font-family: "Roboto", sans-serif;
       font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
       align-items: center;
       text-align: center;
-      letter-spacing: 0.02em;
+      letter-spacing: 0.04em;
+      cursor: pointer;
 
 
   }
@@ -344,6 +349,8 @@
       font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
+      letter-spacing: 0.02em;
+
 
   }
 
@@ -352,6 +359,7 @@
 
       font-size: 16px;
       line-height: 1.5;
+      letter-spacing: 0.02em;
 
 
 
