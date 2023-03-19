@@ -1,0 +1,157 @@
+/* Body */
+.page {
+    background-color: #FFFFFF;
+    color: #2E2F42;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* List tag */
+.list {
+    list-style: none;
+    text-decoration: none
+}
+
+/* Link tag */
+.link {}
+
+/* Header */
+.header {}
+
+.header-navigation {}
+
+.header-logo-web {
+    color: #4D5AE5;
+}
+
+.header-logo-studio {
+    color: #2E2F42;
+}
+
+.header-navigation-list,
+.header-navigation-item,
+.header-navigation-studio,
+.header-navigation-portfolio,
+.header-navigation-contacts {
+    color: #2E2F42;
+}
+
+.header-navigation-list,
+.header-navigation-item,
+.header-navigation-studio,
+.header-navigation-portfolio,
+.header-navigation-contacts:hover {
+    color: #404BBF;
+
+}
+
+.header-navigation-list,
+.header-navigation-item,
+.header-navigation-studio,
+.header-navigation-portfolio,
+.header-navigation-contacts:focus {
+    color: #404BBF;
+}
+
+
+
+.header-address {}
+
+.header-address-list,
+.header-address-item,
+.header-address-link,
+.header-phone-link {
+    color: #434455;
+}
+
+.header-address-list,
+.header-address-item,
+.header-address-link,
+.header-phone-link:hover {
+    color: #404BBF;
+
+}
+
+
+.header-address-list,
+.header-address-item,
+.header-address-link,
+.header-phone-link:focus {
+    color: #404BBF;
+
+}
+
+/* Main 1*/
+.main-section1 {}
+
+.main-section1-text {}
+
+.main-section1-button {}
+
+/* Main 2 */
+.main-section2 {}
+
+.main-section2-title {}
+
+.main-section2-list {}
+
+.main-section2-list-item {}
+
+.main-section2-list-title {}
+
+.main-section2-list-text {}
+
+/* Main 3 */
+.main-section3 {}
+
+.main-section3-title {}
+
+.main-section3-list {}
+
+.main-section3-list-item {}
+
+.main-section3-list-img {}
+
+/* Main 4 */
+.main-section4 {}
+
+.main-section4-title {}
+
+.main-section4-list {}
+
+.main-section4-list-item {}
+
+.main-section4-list-item-img {}
+
+.main-section4-list-item-title {}
+
+.main-section4-list-item-text {}
+
+/* Footer */
+.footer {}
+
+.footer-logo-web {}
+
+.footer-logo-studio {}
+
+.footer-text {}
+
+/* Portfolio page 2 */
+
+.portfolio-main-section1 {}
+
+.portfolio-btn-list {}
+
+.portfolio-btn-list-item {}
+
+/* Main 2 */
+.portfolio-main-section2 {}
+
+.portfolio-main-section2-img-list {}
+
+.portfolio-main-section2-img-list-item {}
+
+.portfolio-main-section2-img-list-item-pic {}
+
+.portfolio-main-section2-img-list-item-title {}
+
+.portfolio-main-section2-img-list-item-text {}
