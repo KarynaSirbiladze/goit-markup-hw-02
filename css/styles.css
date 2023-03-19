@@ -258,6 +258,8 @@
   /* Footer */
   .footer {
       background-color: var(--background-hero-color);
+
+      text-decoration: none;
   }
 
   .footer-logo-web {
@@ -310,6 +312,8 @@
       line-height: 1.5;
       align-items: center;
       text-align: center;
+      letter-spacing: 0.02em;
+
 
   }
 
