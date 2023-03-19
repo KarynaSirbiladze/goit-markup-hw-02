@@ -11,17 +11,20 @@
       --title-text-color: #434455;
       --main-accent-color: #4D5AE5;
       --accent-color: #F4F4FD;
+      --current-buton-color: #404BBF;
       --secondary-accent-color: #FFFFFF;
       --backgroung-main-color: #FFFFFF;
       --background-hero-color: #2E2F42;
       --background-team-color: #F4F4FD;
+      --backgroung-button-color: #404BBF
   }
 
 
   /* Body */
   body {
       background-color: var(--backgroung-main-color);
-      color: var(--title-text-color);
+      color: #434455;
+
       font-family: 'Roboto', sans-serif;
   }
 
@@ -49,14 +52,31 @@
 
   .header-logo-web {
       color: var(--main-accent-color);
+
+      font-family: 'Raleway';
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 1.16;
+
   }
 
   .header-logo-studio {
       color: var(--primary-text-color);
+
+      font-family: 'Raleway';
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 1.16;
   }
 
   .header-navigation-link {
       color: var(--primary-text-color);
+
+
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+
   }
 
   .header-navigation-list {
@@ -68,7 +88,10 @@
 
   }
 
+  .header-navigation-link .link.current {
+      color: var(--current-buton-color);
 
+  }
 
   .header-navigation-link:focus {
       color: var(--main-accent-color);
@@ -81,6 +104,9 @@
 
   .header-address-link {
       color: var(--title-text-color);
+
+      font-size: 16px;
+      line-height: 1.5;
   }
 
   .header-address-link:hover {
@@ -95,70 +121,112 @@
   }
 
   /* Main 1*/
-  .main-section1 {
+  .hero-section {
       background-color: var(--background-hero-color);
   }
 
-  .main-section1-text {
+  .hero-section-text {
       color: var(--secondary-accent-color);
+
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 1.07;
+      text-align: center;
   }
 
-  .main-section1-button {
+  .hero-section-button {
       color: var(--secondary-accent-color);
       background-color: var(--main-accent-color);
+
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
   }
 
   /* Main 2 */
-  .main-section2 {}
+  .goals-section {}
 
-  .main-section2-title {}
+  .goals-section-title {}
 
-  .main-section2-list {}
+  .goals-section-list {}
 
-  .main-section2-list-item {}
+  .goals-section-list-item {}
 
-  .main-section2-list-title {
+  .goals-section-list-title {
       color: var(--primary-text-color);
+
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+
   }
 
-  .main-section2-list-text {
+  .goals-section-list-text {
       color: var(--title-text-color);
+
+      font-size: 16px;
+      line-height: 1.5;
+
   }
 
   /* Main 3 */
-  .main-section3 {}
+  .examples {}
 
-  .main-section3-title {
+  .examples-title {
       color: var(--primary-text-color);
+
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.1;
+      text-align: center;
   }
 
-  .main-section3-list {}
+  .examples-list {}
 
-  .main-section3-list-item {}
+  .examples-list-item {}
 
-  .main-section3-list-img {}
+  .examples-list-img {}
 
   /* Main 4 */
-  .main-section4 {
+  .team {
       background-color: var(--background-team-color);
   }
 
-  .main-section4-title {
+  .team-title {
       color: var(--primary-text-color);
+
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.1;
+      text-align: center;
   }
 
-  .main-section4-list {}
+  .team-list {}
 
-  .main-section4-list-item {}
-
-  .main-section4-list-item-img {}
-
-  .main-section4-list-item-title {
-      color: var(--primary-text-color);
+  .team-list-item {
+      background-color: var(--backgroung-main-color);
   }
 
-  .main-section4-list-item-text {
+  .team-list-item-img {}
+
+  .team-list-item-title {
+      color: var(--primary-text-color);
+
+
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      text-align: center;
+
+  }
+
+  .team-list-item-text {
       color: var(--title-text-color);
+
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: center;
+
   }
 
   /* Footer */
@@ -168,35 +236,80 @@
 
   .footer-logo-web {
       color: var(--main-accent-color);
+      font-family: 'Raleway';
+      font-style: normal;
   }
 
   .footer-logo-studio {
       color: var(--accent-color);
+      font-family: 'Raleway';
+      font-style: normal;
   }
 
   .footer-text {
-      color: var(--accent-color)
+      color: var(--accent-color) font-family: 'Roboto';
+
+      font-size: 16px;
+      line-height: 1.5;
+
   }
 
   /* Portfolio page 2 */
 
-  .portfolio-main-section1 {}
+  .portfolio-main-section {}
 
-  .portfolio-btn-list {}
+  .portfolio-button-list {}
 
-  .portfolio-btn-list-item {}
+  .portfolio-button-list-item {}
+
+  .portfolio-button {
+      background-color: var(--accent-color);
+      color: var(--main-accent-color);
+
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      align-items: center;
+      text-align: center;
+
+  }
+
+  .portfolio-button:hover {
+      background-color: var(--backgroung-button-color);
+      color: var(--secondary-accent-color);
+  }
+
+  .portfolio-button:focus {
+      background-color: var(--backgroung-button-color);
+      color: var(--secondary-accent-color);
+  }
 
   /* Main 2 */
-  .portfolio-main-section2 {}
+  .portfolio-services {}
 
-  .portfolio-main-section2-img-list {}
+  .portfolio-services-img-list {}
 
-  .portfolio-main-section2-img-list-item {}
+  .portfolio-services-img-list-item {}
 
   .portfolio-link {}
 
-  .portfolio-main-section2-img-list-item-pic {}
+  .portfolio-services-img-list-item-pic {}
 
-  .portfolio-main-section2-img-list-item-title {}
+  .portfolio-services-img-list-item-title {
+      color: var(--primary-text-color);
 
-  .portfolio-main-section2-img-list-item-text {}
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+
+  }
+
+  .portfolio-services-img-list-item-text {
+      color: var(--title-text-color);
+
+      font-size: 16px;
+      line-height: 1.5;
+
+
+
+  }
