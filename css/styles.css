@@ -157,11 +157,11 @@
   }
 
   .hero-section-button:hover {
-      color: var(--backgroung-button-color)
+      color: var(--main-buton-color))
   }
 
   .hero-section-button:focus {
-      color: var(--backgroung-button-color)
+      color: var(--main-buton-color))
   }
 
   /* Main 2 */
